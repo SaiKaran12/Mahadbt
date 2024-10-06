@@ -1,0 +1,929 @@
+@keyframes bhover{
+  0%{
+    background-color: #FBF4EA;
+    border-color: #DF660B;
+  }
+  50%{
+    background-color: white;
+  }
+}
+.btnstyle{
+  text-decoration: none;
+  color:black;
+}
+
+/*body tag*/
+body{
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial;
+}
+.footer{
+  height:200px;
+  width:100%;
+  background-color: white;
+  border-top: 1px solid #DF660B;
+}
+.footerelement{
+  background-image: url('footer.jpg');
+  height:150px;
+  width:300px;
+  background-size: cover;
+}
+
+
+
+/*nav tag */
+.nav{
+  width:100%;
+  height:220px;
+  background-color: transparent;
+}
+
+/*top nav 1*/
+.topnav{
+  width:100%;
+  height:22%;
+  background-color: transparent;
+}
+
+
+/*top nav 2*/
+.topnav2{
+  width:100%;
+  height:40%;
+  background-color: transparent;
+  display: flex;
+}
+.glogo{
+  height:100%;
+  width:18%;
+  background-color: transparent;
+  background-size: over;
+}
+.mahadbtlogo{
+  height:100%;
+  width:17%;
+  background-color: transparent;
+}
+.glogo1{
+  height:100%;
+  width:17%;
+  background-color: transparent;
+  background-size: over;
+}
+.mahadbtlogo1{
+  height:100%;
+  width:35%;
+  background-color: transparent;
+}
+
+
+
+/*top nav 3*/
+.topnav3{
+  width:100%;
+  height:26%;
+  background-color: #213E6A;
+  display: flex;
+}
+.apponline{
+  width:13%;
+  height:100%;
+  background-color: #DF660B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 17px;
+}
+.benscheme{
+  width:11%;
+  height:100%;
+  background-color: #213E6A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 17px;
+}
+.schemearrow{
+  width:4%;
+  height:100%;
+  background-color: #213E6A;
+
+}
+.schemearrows{
+  width:100%;
+  height:100%;
+  background-color: white;
+  clip-path: polygon(0% 0%,25% 0%,100% 50%,25% 100%,0% 100%,75% 50%);
+}
+
+.nav2{
+  width:100%;
+  height:1400px;
+  background-color: white;
+  display: flex;
+  margin-top: 15px;
+}
+
+/*vertical nav*/
+.vnav{
+  width:24%;
+  height:1100px;
+  background-color: white;
+  position: relative;
+  left:0.5%;
+}
+.adharlink{
+  width:98%;
+  height:45px;
+  background-color: white;
+  border:1px solid #cccccc;
+  margin-top: 3px;
+  font-size: 17px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.home{
+  width:99%;
+  height:45px;
+  background-color: white;
+  border:1px solid #cccccc;
+  margin-top: 3px;
+  font-size: 17px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.profile{
+  width:99%;
+  height:45px;
+  background-color: white;
+  border:1px solid #cccccc;
+  margin-top: 3px;
+  font-size: 17px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.allscheme{
+  width:99%;
+  height:45px;
+  background-color: white;
+  border:1px solid #cccccc;
+  margin-top: 3px;
+  font-size: 17px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.myscheme{
+  width:99%;
+  height:45px;
+  background-color: white;
+  border:1px solid #cccccc;
+  margin-top: 3px;
+  font-size: 17px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.mycancelscheme{
+  width:99%;
+  height:45px;
+  background-color: white;
+  border:1px solid #cccccc;
+  margin-top: 3px;
+  font-size: 17px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.righttogiveup{
+  width:99%;
+  height:45px;
+  background-color: white;
+  border:1px solid #cccccc;
+  margin-top: 3px;
+  font-size: 17px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.griev{
+  width:99%;
+  height:85px;
+  background-color: white;
+  border:1px solid #cccccc;
+  margin-top: 3px;
+  font-size: 17px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.declaration{
+  width:99%;
+  height:45px;
+  background-color: white;
+  border:1px solid #cccccc;
+  margin-top: 3px;
+  font-size: 17px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.notification{
+  width:99%;
+  height:45px;
+  background-color: white;
+  border:1px solid #cccccc;
+  margin-top: 3px;
+  font-size: 17px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.appliedscheme{
+  width:99%;
+  height:45px;
+  background-color: white;
+  border:1px solid #cccccc;
+  margin-top: 3px;
+  font-size: 17px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: #000000;
+}
+/*vertical nav closed*/
+.dis{
+  width:74%;
+  height:100%;
+  background-color: white;
+  position: relative;
+  left:1.5%;
+}
+.homedes{
+  background-color: white;
+  height:100%;
+  width:100%;
+}
+
+
+/*main adhar description*/
+.adharhead{
+  width:100%;
+  height:33px;
+  background-color: white;
+  border-bottom: 2px solid #25C6DA;
+  overflow: hidden;
+  color: #DF660B;
+  font-size: 24px;
+}
+.adharmessage{
+  height:180px;
+  width:90%;
+  position: relative;
+  left:2.5%;
+  top:30px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  color:#FE0000;
+}
+
+
+/*main home description*/
+.homehead{
+  width:100%;
+  height:3.7%;
+  background-color: white;
+  border-bottom: 2px solid #25C6DA;
+  overflow: hidden;
+  color: #DF660B;
+  font-size: 26px;
+}
+.homehead{
+  width:100%;
+  height:3%;
+  background-color: white;
+  border-bottom: 2px solid aqua;
+}
+.prcmp{
+  width:100%;
+  height:70px;
+  background-color: white;
+  margin-top: 10px;
+}
+.greenbtnsec{
+  height:75%;
+  width:100%;
+  background-color: white;
+  display: flex;
+}
+.btntext{
+  width:26%;
+  height:90%;
+  background-color: white;
+  position: relative;
+  left:60%;
+  font-size: 17px;
+  color:#0C88EC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bbtn{
+  width:13%;
+  height:90%;
+  background-color: #35AE2D;
+  position: relative;
+  left:61%;
+  font-size: 17px;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.greenpr{
+  height:25%;
+  width:100%;
+  background-color: #35AE2D;
+}
+.homeschemehead{
+  width:100%;
+  height:33px;
+  background-color:white;
+  overflow: hidden;
+  color: #213E6A;
+  font-size: 19px;
+  position: relative;
+  top:20px;
+}
+.schemeport{
+  width:97%;
+  height:800px;
+  background-color: white;
+  border:0.5px solid #888888;
+  position: relative;
+  top:23px;
+}
+.tablescheme{
+  height:100%;
+  width:100%;
+  padding: 0%;
+  margin: 0%;
+  border-color: #888888;
+  border-collapse: collapse;
+  border-spacing: 0;
+  
+}
+.schemename{
+  width:32%;
+}
+.schemedepart{
+  width:26%;
+}
+.schemetype{
+  width:17%;
+}
+.takeaction{
+  width:12%;
+  color:#5686AE;
+}
+.dgr{
+  color:#5686AE;
+}
+
+.schemename1{
+  background-color: #FBF4EA;
+  width:32%;
+}
+.schemedepart1{
+  background-color: #FBF4EA;
+  width:26%;
+}
+.schemetype1{
+  background-color: #FBF4EA;
+  width:17%;
+}
+.takeaction1{
+  background-color: #FBF4EA;
+  width:12%;
+}
+.dgr1{
+  background-color: #FBF4EA;
+}
+
+
+
+/*my scheme description*/
+.myschemeinstruct{
+  padding-top: 18px;
+  left:2%;
+  width:96%;
+  height:400px;
+  background-color: #F2DEDF;
+  position: relative;
+  top:20px;
+  color:#BB4948;
+}
+.myschemestatus{
+  height:100px;
+  position: relative;
+  left:2%;
+  background-color: transparent;
+  width:96%;
+  margin-top: 35px;
+}
+.myschemestatus1{
+  height:50%;
+  position: relative;
+  background-color: transparent;
+  width:100%;
+  display: flex;
+}
+.underscrutiny{
+  height:100%;
+  width:39%;
+  color:white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.approved{
+  height:100%;
+  width:34%;
+  border-left: 3px solid white;
+  color:#DF660B;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rejected{
+  height:100%;
+  width:32%;
+  color:#DF660B;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.funddisb{
+  height:100%;
+  width:25%;
+  border-left: 3px solid white;
+  color:#DF660B;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.schemeallstatus{
+  overflow: hidden;
+  height:200px;
+  position: relative;
+  left:2%;
+  background-color: transparent;
+  width:93%;
+  border:3px solid #F5EEDC;
+  padding:14px;
+}
+
+.scrutinystatus1{
+  overflow: hidden;
+}
+.approvedstatus1{
+  overflow: hidden;
+}
+.rejectedstatus1{
+  overflow: hidden;
+}
+.fundstatus1{
+  overflow: hidden;
+}
+.appliedtable{
+  height:100%;
+  width:100%;
+  border-color: #dddddd;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.appliedtablehead{
+  width:100%;
+  height:35%;
+  background-color: #F5EEDC;
+    border-collapse: collapse;
+  border-spacing: 0;
+}
+.appliedtablehead1{
+  width:100%;
+  height:65%;
+    border-collapse: collapse;
+  border-spacing: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/*cancel scheme des*/
+.nnodata{
+  font-size: 18px;
+  margin-top: 15px;
+}
+.nnodata{
+  color:black;
+  margin-top: 10px;
+}
+.dis2{
+  width:70%;
+  height:4700px;
+  background-color: white;
+  position: relative;
+  left:3.5%;
+  border:1px solid orange;
+}
+.navv2{
+  width:100%;
+  height:auto;
+  background-color: white;
+  display: flex;
+  margin-top: 15px;
+}
+.prnavhead{
+  width:100%;
+  height:180px;
+  background-color: transparent;
+  margin-top:8px;
+  display: flex;
+}
+.prnav1sec{
+  background-color: white;
+  margin-top:8px;
+  overflow: hidden;
+}
+.prnav2sec{
+  background-color: white;
+  overflow: hidden;
+}
+.prnav3sec{
+  background-color: green;
+  overflow: hidden;
+}
+.prnav4sec{
+  background-color: white;
+  overflow: hidden;
+}
+
+.prnav5sec{
+  background-color: bisque;
+  overflow: hidden;
+}
+.prnav6sec{
+  background-color: darkgoldenrod;
+  overflow: hidden;
+}
+
+.prnav1secc{
+  width:16.5%;
+  height:100%;
+  background-color: white;
+}
+.prnav2secc{
+  width:16.5%;
+  height:100%;
+  background-color: yellow;
+}
+.prnav3secc{
+  width:16.5%;
+  height:100%;
+  background-color: green;
+}
+.prnav4secc{
+  width:16.5%;
+  height:100%;
+  background-color: aqua;
+}
+
+.prnav5secc{
+  width:16.5%;
+  height:100%;
+  background-color: bisque;
+}
+.prnav6secc{
+  width:16.5%;
+  height:100%;
+  background-color: darkgoldenrod;
+}
+.homeheadd{
+  width:100%;
+  height:45px;
+  background-color: white;
+  border-bottom: 2px solid #25C6DA;
+  overflow: hidden;
+  color: #DF660B;
+  font-size: 26px;
+}
+.pprinfo{
+  width:100%;
+  height:50%;
+  background-color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.pprinfo1{
+  width:100%;
+  height:75%;
+  clip-path: polygon(0% 0%,100% 0%,100% 90%,60% 90%,50% 100%,40% 90%,0% 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pprinfo2{
+  width:100%;
+  height:75%;
+  clip-path: polygon(0% 0%,100% 0%,100% 90%,60% 90%,50% 100%,40% 90%,0% 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pprinfo3{
+  width:100%;
+  height:75%;
+  clip-path: polygon(0% 0%,100% 0%,100% 90%,60% 90%,50% 100%,40% 90%,0% 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pprinfo4{
+  width:100%;
+  height:75%;
+  clip-path: polygon(0% 0%,100% 0%,100% 90%,60% 90%,50% 100%,40% 90%,0% 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pprinfo5{
+  width:100%;
+  height:75%;
+  clip-path: polygon(0% 0%,100% 0%,100% 90%,60% 90%,50% 100%,40% 90%,0% 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pprinfo6{
+  width:100%;
+  height:75%;
+  clip-path: polygon(0% 0%,100% 0%,100% 90%,60% 90%,50% 100%,40% 90%,0% 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pprlogo{
+  width:100%;
+  height:50%;
+  background-color: transparent;
+  background-size: cover;
+}
+.information{
+  height:800px;
+  width:98%;
+  position: relative;
+  left:1%;
+  background-color: white;
+  margin-top: 10px;
+}
+.informationin{
+  height:760px;
+  width:100%;
+  position: relative;
+  background-color: #F8FBFF;
+  top:40px;
+  border:1px solid #E3EDF7;
+  
+}
+.headname{
+  background-color: #DAE9FE;
+  width:30%;
+  height:46px;
+  position: relative;
+  top:-23px;
+  left:20px;
+  color:#1C5F95;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.information2{
+  height:190px;
+  width:98%;
+  position: relative;
+  left:1%;
+  background-color: white;
+  margin-top: 10px;
+}
+.informationin2{
+  height:150px;
+  width:100%;
+  position: relative;
+  background-color: #F8FBFF;
+  top:40px;
+  border:1px solid #E3EDF7;
+  
+}
+.headname2{
+  background-color: #DAE9FE;
+  width:30%;
+  height:46px;
+  position: relative;
+  top:-23px;
+  left:20px;
+  color:#1C5F95;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.information3{
+  height:590px;
+  width:98%;
+  position: relative;
+  left:1%;
+  background-color: white;
+  margin-top: 10px;
+}
+.informationin3{
+  height:550px;
+  width:100%;
+  position: relative;
+  background-color: #F8FBFF;
+  top:40px;
+  border:1px solid #E3EDF7;
+  
+}
+.headname3{
+  background-color: #DAE9FE;
+  width:30%;
+  height:46px;
+  position: relative;
+  top:-23px;
+  left:20px;
+  color:#1C5F95;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.information8{
+  height:300px;
+  width:98%;
+  position: relative;
+  left:1%;
+  background-color: white;
+  margin-top: 10px;
+}
+.informationin8{
+  height:260px;
+  width:100%;
+  position: relative;
+  background-color: #F8FBFF;
+  top:40px;
+  border:1px solid #E3EDF7;
+  
+}
+.headname8{
+  background-color: #DAE9FE;
+  width:30%;
+  height:46px;
+  position: relative;
+  top:-23px;
+  left:20px;
+  color:#1C5F95;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.information9{
+  height:300px;
+  width:98%;
+  position: relative;
+  left:1%;
+  background-color: white;
+  margin-top: 10px;
+}
+.informationin9{
+  height:260px;
+  width:100%;
+  position: relative;
+  background-color: #F8FBFF;
+  top:40px;
+  border:1px solid #E3EDF7;
+  
+}
+.headname9{
+  background-color: #DAE9FE;
+  width:30%;
+  height:46px;
+  position: relative;
+  top:-23px;
+  left:20px;
+  color:#1C5F95;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.relselect{
+  width:210px;
+  height:35px;
+  outline: none;
+  box-shadow: 0 0 0 1px #E3EDF7;
+}
+.aadharno{
+  width:100%;
+  height:80px;
+  background-color: transparent;
+}
+.aadharinput{
+  width:35%;
+  height:30px;
+  background-color: #efefef;
+  border-style:none;
+}
+.namein{
+  width:100%;
+  height:170px;
+  background-color: transparent;
+}
+.nameinput{
+  width:35%;
+  height:30px;
+  background-color: #efefef;
+  border-style:none;
+}
+.iinst{
+  width:94%;
+  height:65px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  border:1px solid red;
+}
+.iinstlogo{
+  height:100%;
+  width:9.5%;
+  background-image: url("alert.jpg");
+  background-size: cover;
+}
+.iinstdes{
+  height:100%;
+  width:88%;
+  color:red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nameinn{
+  width:100%;
+  height:70px;
+  background-color: transparent;
+}
+
+.nameinnn{
+  width:100%;
+  height:70px;
+  background-color: transparent;
+  display: flex;
+}
+.namein1{
+  width:33%;
+  height:70px;
+  background-color: transparent;
+}
+.nameinput1{
+  width:85%;
+  height:35px;
+  background-color: #efefef;
+  border-style:none;
+}
+.nameinnm{
+  width:100%;
+  height:180px;
+  background-color: transparent;
+  display: flex;
+}
+
+
